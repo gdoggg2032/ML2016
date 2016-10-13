@@ -1,3 +1,4 @@
+#! /usr/bin/bash
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 python preprocess.py train.csv train.np 10 1
