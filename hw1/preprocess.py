@@ -20,9 +20,9 @@ if __name__ == "__main__":
 
 
 	if training:
-		df = pd.read_csv(dataFile)
+		df = pd.read_csv(dataFile, encoding = "utf8")
 	else:
-		df = pd.read_csv(dataFile, header=None)
+		df = pd.read_csv(dataFile, header=None, encoding = "utf8")
 
 	# drop out "place" column because they are all the same
 	if training:
