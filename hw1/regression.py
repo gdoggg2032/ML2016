@@ -143,7 +143,7 @@ class linearRegression(object):
 		w_sq = self.W ** 2
 
 		# c = c_partial ** 2
-		c = np.sqrt((np.sum(c_partial ** 2) + self.C * (np.sum(w_sq**2)))/len(y))
+		c = np.sqrt((np.sum(c_partial ** 2) + self.C * (np.sum(w_sq)))/len(y))
 
 
 
