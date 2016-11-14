@@ -144,7 +144,7 @@ class neuron_network(object):
 
 		self.feature_size = feature_size
 		self.learning_rate = args.lr
-		self.layers = [feature_size, 50, 50, 10,1]
+		self.layers = [feature_size, 100, 50, 10, 1]
 
 		self.W = {}
 		self.b = {}
