@@ -329,7 +329,7 @@ class cnn(object):
 		total = 0
 		# top_k = 450#int(2000 * 0.85)
 		prob_tf = 0.0
-		unlabel_weight = 1.5
+		unlabel_weight = 1.0
 		del_x = []
 		for i in range(10):
 			
@@ -446,7 +446,7 @@ class cnn(object):
 					print >> sys.stderr, "assign unlabel data"
 					self.add_unlabel_data(top_k)
 					val_warm_up = -0
-					val_th += 0.5 *(val_acc-val_th)#+= 0.0 #0.005#(label_acc - val_th) * 0.5
+					val_th += val_acc#0.5 *(val_acc-val_th)#+= 0.0 #0.005#(label_acc - val_th) * 0.5
 					top_k += 50
 					print >> sys.stderr, "update val_th to {}".format(val_th)
 					# self.sess.run(tf.initialize_all_variables())
