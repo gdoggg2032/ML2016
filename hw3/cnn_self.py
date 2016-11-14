@@ -545,7 +545,7 @@ def main():
 
 		print >> sys.stderr, "training time: {}".format(time.time()-s_time)
 
-	if args.mode / 2 == 0:
+	if args.mode > 0:
 		start_time = time.time()
 
 		model.test()
