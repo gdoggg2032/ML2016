@@ -1,0 +1,156 @@
+(dp1
+S'osx'
+p2
+(S'osx'
+S' osx '
+p3
+I0
+tp4
+sS'hibernate'
+p5
+(S'hibernate'
+S' hibernate '
+I0
+tp6
+sS'share point'
+p7
+(g7
+S' sharepoint '
+p8
+I0
+tp9
+sS'spring'
+p10
+(g10
+S' spring '
+I0
+tp11
+sS'linq'
+p12
+(g12
+S' linq '
+I0
+tp13
+sS'cocoa'
+p14
+(g14
+S' cocoa '
+I0
+tp15
+sS'ajax'
+p16
+(S'ajax'
+S' ajax '
+I0
+tp17
+sS'visual studio'
+p18
+(g18
+S' visualstudio '
+p19
+I0
+tp20
+sS'magento'
+p21
+(g21
+S' magento '
+I0
+tp22
+sS'word press'
+p23
+(g23
+S' wordpress '
+p24
+I0
+tp25
+sS'apache'
+p26
+(g26
+S' apache '
+I0
+tp27
+sS'bash'
+p28
+(g28
+S' bash '
+I0
+tp29
+sS'svn'
+p30
+(g30
+S' svn '
+I0
+tp31
+sS'qt'
+p32
+(S'((?=^)|(?<=\\s))Q(?=[A-Z][a-z])'
+S' qt '
+I1
+tp33
+sS'scala'
+p34
+(g34
+S' scala '
+I0
+tp35
+sS'drupal'
+p36
+(g36
+S' drupal '
+I0
+tp37
+sS'sharepoint'
+p38
+(S'sharepoint'
+g8
+I0
+tp39
+sS'excel'
+p40
+(g40
+S' excel '
+I0
+tp41
+sS'os x'
+p42
+(g42
+g3
+I0
+tp43
+sS'haskell'
+p44
+(g44
+S' haskell '
+I0
+tp45
+sS'wordpress'
+p46
+(S'wordpress'
+g24
+I0
+tp47
+sS'matlab'
+p48
+(g48
+S' matlab '
+I0
+tp49
+sS'oracle'
+p50
+(S'oracle'
+S' oracle '
+I0
+tp51
+sS'visualstudio'
+p52
+(S'visualstudio'
+g19
+I0
+tp53
+sS'visual-studio'
+p54
+(g54
+g19
+I0
+tp55
+s.
